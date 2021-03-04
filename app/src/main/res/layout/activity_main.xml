@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jmedeisis.draglinearlayout.DragLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/idIVlogo"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="Siddhant's Image"
+        android:src="@drawable/my_img" />
+
+    <!--below is the simple text view-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/purple_500"
+        android:padding="10dp"
+        android:text="Drag and Drop demo"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!--below is the simple text view-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/purple_500"
+        android:padding="10dp"
+        android:text="From GFG"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</com.jmedeisis.draglinearlayout.DragLinearLayout>
